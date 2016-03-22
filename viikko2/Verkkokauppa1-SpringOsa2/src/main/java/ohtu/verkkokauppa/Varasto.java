@@ -2,10 +2,15 @@ package ohtu.verkkokauppa;
 
 import java.util.*;
 
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Component
 public class Varasto implements VarastoIf {
     private KirjanpitoIf kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
+    @Autowired
     public Varasto(KirjanpitoIf kirjanpito) {
         this.kirjanpito = kirjanpito;
         saldot = new HashMap<Tuote, Integer>();
