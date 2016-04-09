@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.1.1">
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/ViitegeneraattoriIf.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/VarastoIf.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Pankki.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoIf.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiIf.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/home/matoking/FTP/odroid-xu4/home/odroid/git/ohtu2016-oma/viikko2/Verkkokauppa1/src/main/java/ohtu/Main.java">
+<error line="14" column="5" severity="error" message="Cyclomatic Complexity is 4 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="14" column="5" severity="error" message="Method length is 32 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="31" column="13" severity="error" message="Nested for depth is 1 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+</file>
+</checkstyle>
